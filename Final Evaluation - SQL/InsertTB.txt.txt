@@ -1,0 +1,45 @@
+-- Data of Student table
+INSERT INTO Student (numstud, name, firsname, dateofbirth, street, postalcod, city)
+VALUES
+(1, 'Dupont', 'Student1', '1990-01-01', 'Street1', '12345', 'Marseille‎'),
+(2, 'Durand', 'Student2', '1992-02-02', 'Street2', '23456', 'Lille‎'),
+(3, 'Martin', 'Student3', '1994-03-03', 'Street3', '34567', 'Marseille'),
+(4, 'Smith', 'Student4', '1996-04-04', 'Street4', '45678', 'Marseille'),
+(5, 'Johnson', 'Student5', '1998-05-05', 'Street5', '56789', 'Lille'),
+(6, 'Silva', 'Student6', '2000-06-06', 'Street6', '67890', 'Porto'),
+(7, 'Fernandez', 'Student7', '2002-07-07', 'Street7', '78901', 'Lisbon');
+
+-- Data of Matter table
+INSERT INTO Matter (codemat, wording, coef)
+VALUES
+(1, 'English', 1.2),
+(2, 'Mathematics', 1.5),
+(3, 'Chemistry', 2.0);
+
+-- Data of Test table
+INSERT INTO Test (numtest, testdate, place, codemat)
+VALUES
+(1, '2014-01-15', 'Place1', 1),
+(2, '2014-05-20', 'Place2', 2),
+(3, '2014-06-30', 'Place3', 3),
+(4, '2015-02-10', 'Place4', 1),
+(5, '2015-04-25', 'Place5', 3);
+
+-- Data of Notation table
+INSERT INTO Notation (numstud, numtest, score)
+VALUES
+(1, 1, 15),
+(2, 1, 18),
+(3, 1, 12),
+(4, 2, 14),
+(5, 2, 20),
+(6, 3, 8),
+(7, 3, 16),
+(1, 4, 10),
+(2, 4, 11),
+(3, 4, 13),
+(4, 5, 9),
+(5, 5, 17),
+(6, 5, 15);
+
+
